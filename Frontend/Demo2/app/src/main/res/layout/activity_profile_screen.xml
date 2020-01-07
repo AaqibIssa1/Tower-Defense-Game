@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_blue_light"
+    tools:context=".activities.ProfileScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Profile" />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/user"
+        android:text="User: " />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/realName"
+        android:text="Name: " />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="75dp"
+        android:id="@+id/currentRank"
+        android:text="Current Rank: " />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/highestRank"
+        android:text="Highest Rank: " />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="125dp"
+        android:id="@+id/lowestRank"
+        android:text="Lowest Rank: " />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/wins"
+        android:text="Wins: " />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="175dp"
+        android:id="@+id/losses"
+        android:text="Losses: " />
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="369dp"
+        android:layout_marginRight="7dp"
+        android:backgroundTint="@android:color/black"
+        android:text="X"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

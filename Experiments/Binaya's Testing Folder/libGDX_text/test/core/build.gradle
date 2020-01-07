@@ -1,0 +1,11 @@
+apply plugin: "java"
+
+sourceCompatibility = 1.7
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+dependencies {
+    implementation('io.socket:socket.io-client:1.0.0')
+    implementation('com.android.volley:volley:1.1.0')
+}

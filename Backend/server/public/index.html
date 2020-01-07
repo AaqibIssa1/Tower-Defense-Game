@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Socket</h1>
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input id="_username" type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input id="_password" type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button id="_btn" type="submit">Login</button>
+    </div>
+
+    <div>
+        <form action="./pages/register.html">
+            <input type="submit" value="Register" />
+        </form>
+    </div>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+<script src="indexPage.js"></script>
+
+</html>

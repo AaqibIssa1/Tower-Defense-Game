@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nicky"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".android.activities.ProfileActivity">
+
+        <EditText
+            android:id="@+id/real_name_editor"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="148dp" />
+
+        <TextView
+            android:id="@+id/real_name"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="111dp"
+            android:text="User: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/user_name_editor"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="62dp" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:text="User: "
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="369dp"
+            android:layout_marginRight="7dp"
+            android:backgroundTint="#FF0000"
+            android:text="X"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="239dp"
+            android:layout_height="94dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="576dp"
+            android:text="Confirm Edit"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+</LinearLayout>

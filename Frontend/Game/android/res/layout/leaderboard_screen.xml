@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/god"
+    android:backgroundTint="#B7473111"
+    android:backgroundTintMode="src_over">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rank1_text"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rank1_friend_button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Add Friend"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rank2_text"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rank2_friend_button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Add Friend"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rank3_text"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rank3_friend_button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Add Friend"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rank4_text"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rank4_friend_button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Add Friend"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="102dp">
+
+        <TextView
+            android:id="@+id/rank5_text"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rank5_friend_button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Add Friend"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </TableRow>
+</TableLayout>

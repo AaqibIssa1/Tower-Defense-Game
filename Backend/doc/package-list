@@ -1,0 +1,9 @@
+edu.coms.sr2.backend
+edu.coms.sr2.backend.exceptions
+edu.coms.sr2.backend.http.controllers
+edu.coms.sr2.backend.http.database
+edu.coms.sr2.backend.http.handlers
+edu.coms.sr2.backend.services
+edu.coms.sr2.backend.sockets
+edu.coms.sr2.backend.sockets.controllers
+edu.coms.sr2.backend.utils

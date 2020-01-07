@@ -1,0 +1,27 @@
+targetCompatibility = 1.8
+apply plugin: "java"
+
+sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+sourceSets.test.java.srcDirs = ['src/Mockito_Tests/']
+
+test {
+
+    testLogging {
+        // set options for log level LIFECYCLE
+        events "failed"
+        exceptionFormat "short"
+
+        // set options for log level DEBUG
+        debug {
+            events "started", "skipped", "failed"
+            exceptionFormat "full"
+        }
+
+        // remove standard output/error logging from --info builds
+        // by assigning only 'failed' and 'skipped' events
+        info.events = ["failed", "skipped"]
+    }
+}

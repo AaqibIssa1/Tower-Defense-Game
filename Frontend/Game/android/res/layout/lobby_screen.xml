@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spiderman_for_309"
+    android:backgroundTint="#72000000"
+    android:backgroundTintMode="src_over">
+
+    <TextView
+        android:id="@+id/lobby_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Lobby" />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-3dp"
+        android:text="My Profile" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#FF0000"
+        android:text="X"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="208dp"
+        android:layout_height="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="17dp"
+        android:text="PLAY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <Button
+        android:id="@+id/friends_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/profile_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="Friends" />
+
+    <ProgressBar
+        android:id="@+id/mm_progress"
+        style="@android:style/Widget.Material.Light.ProgressBar"
+        android:layout_width="82dp"
+        android:layout_height="109dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="263dp"
+        android:backgroundTint="#00942A2A"
+        android:backgroundTintMode="src_over"
+        android:indeterminate="false"
+        android:progressTint="#FFC107"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/leaderboard_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="6dp"
+        android:text="Leaderboard" />
+
+    <Button
+        android:id="@+id/recent_players_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/friends_button"
+        android:layout_alignEnd="@+id/leaderboard_button"
+        android:layout_marginTop="-2dp"
+        android:text="Recent Players" />
+
+    <TextView
+        android:id="@+id/finding_match_text"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="41dp"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+</RelativeLayout>
